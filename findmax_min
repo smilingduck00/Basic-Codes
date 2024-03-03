@@ -1,0 +1,18 @@
+import random
+
+# create an array with random 10 numbers between 1 and 100
+array = [random.randint(1, 100) for _ in range(10)]
+print(array)
+# Find maximum
+max_num = max(array)
+print("Maximum of the array: ", max_num)
+
+# Find maximum
+min_num = min(array)
+print("Minimum of the array: ", min_num)
+
+# Sort it from min to max
+print(sorted(array, reverse=False))
+
+# Sort it from max to min
+print(sorted(array, reverse=True))
